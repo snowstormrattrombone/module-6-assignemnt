@@ -13,7 +13,7 @@ function Content() {
   };
 
   return (
-    <div className="container content__box">
+    <main className="container content__box">
       <textarea
         value={text}
         onChange={handleTextAreaChange}
@@ -21,7 +21,7 @@ function Content() {
       />
       <button onClick={handleButtonClick}>Display Text</button>
       <p className="display__text">You Typed: {displayText}</p>
-    </div>
+    </main>
   );
 }
 
